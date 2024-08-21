@@ -17,7 +17,6 @@ body{
     margin: 0px;
     min-height: 100vh;
     background-color: var(--color-stone-100, #F3E5D7);
-    border: 0.1px solid transparent;
 }
 
 .container{
@@ -65,6 +64,5 @@ body{
 
     body{
         background-color: white;
-        border: 0px solid transparent;
     }
 }
