@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    min-height: 172px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 12px;
+    background-color: var(--color-rose-50, #FFF7FB);
+    margin: auto;
+}
+
+.container > h1{
+    color: var(--color-rose-800, #7A284E);
+    font-family: var(--font-desc);
+    font-size: var(--font-size-desktop-text-preset-3, 20px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+    margin: 0px;
+}
+
+.preparation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    margin: 0px;
+    padding-left: 18px;
+    list-style-image: url('./icons/point.svg');
+}
+
+.preparation > li{
+    color: var(--color-stone-600, #5F564D);
+    font-family: var(--font-desc);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    padding-left: 24px;
+}
+
+.preparation strong{
+    font-weight: 700;
+}
+
+
+@media(max-width: 550px){
+    .container{
+        width: 90%;
+    }
+}

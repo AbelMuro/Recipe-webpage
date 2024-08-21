@@ -29,3 +29,19 @@
     line-height: 150%; /* 24px */
     margin: 0px;
 }
+
+@media(max-width: 550px){
+    .header{
+        align-items: center;
+    }
+
+    .header_image{
+        border-radius: 0px;
+    }
+    .header_title{
+        width: 90%;
+    }
+    .header_desc{
+        width: 90%;
+    }
+}
